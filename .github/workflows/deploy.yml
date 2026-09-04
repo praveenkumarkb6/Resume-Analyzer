@@ -1,57 +1,57 @@
-name: Deploy Frontend to GitHub Pages
+# Resume Analyzer
 
-on:
-  push:
-    branches:
-      - main
+A web-based Resume Analyzer that analyzes a resume against a given job description and identifies matching skills.
 
-permissions:
-  contents: read
-  pages: write
-  id-token: write
+## Live Websites
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
+### GitHub Pages
+https://praveenkumarkb6.github.io/Resume-Analyzer/
 
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+### Render
+https://resume-analyzer-frontend-c27z.onrender.com
 
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: 22
-          cache: npm
-          cache-dependency-path: frontend/package-lock.json
+## Backend API
 
-      - name: Install dependencies
-        working-directory: frontend
-        run: npm ci
+https://resume-analyzer-tz24.onrender.com
 
-      - name: Build
-        working-directory: frontend
-        env:
-          VITE_API_BASE_URL: https://resume-analyzer-tz24.onrender.com
-        run: npm run build
+## GitHub Repository
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
+https://github.com/praveenkumarkb6/Resume-Analyzer
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: frontend/dist
+## Technologies Used
 
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
+- React
+- Vite
+- Python
+- Flask
+- PDF processing
+- REST API
+- Render
+- GitHub Pages
+- GitHub Actions
 
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+## Main Features
 
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+- Upload resume PDF
+- Enter job description
+- Extract resume content
+- Analyze required skills
+- Compare resume skills with job skills
+- Display analysis results
+- Resume structure analysis
+- Skills analysis
+- Job description skill comparison
+- Recommendations
+
+## Deployment
+
+The frontend is deployed using:
+
+- GitHub Pages
+- Render
+
+The backend API is deployed using:
+
+- Render
+
+GitHub Actions is used to automatically build and deploy the frontend to GitHub Pages whenever changes are pushed to the `main` branch.
