@@ -1,0 +1,26 @@
+{
+  "programming_languages": [
+    "Python", "Java", "C", "C++", "C#", "JavaScript", "TypeScript",
+    "Go", "Rust", "PHP", "Ruby", "Kotlin", "Swift", "R"
+  ],
+  "web_technologies": [
+    "HTML", "CSS", "React", "Angular", "Vue", "Node.js", "Next.js",
+    "Express", "Flask", "Django", "FastAPI", "ASP.NET", "REST APIs"
+  ],
+  "frontend": ["React Native", "Bootstrap", "Tailwind CSS", "jQuery"],
+  "backend": ["Spring Boot", "GraphQL", "WebSockets"],
+  "databases": ["SQL", "MySQL", "PostgreSQL", "MongoDB", "Oracle", "SQLite", "Redis"],
+  "data_science": ["Pandas", "NumPy", "Matplotlib", "Jupyter"],
+  "machine_learning": [
+    "Machine Learning", "Deep Learning", "Natural Language Processing",
+    "NLP", "Computer Vision", "TensorFlow", "PyTorch", "Scikit-learn"
+  ],
+  "ai": ["Artificial Intelligence", "Generative AI", "Large Language Models"],
+  "cloud": ["AWS", "Azure", "Google Cloud", "Firebase", "Heroku"],
+  "devops": ["Docker", "Kubernetes", "Jenkins", "CI/CD", "Linux"],
+  "tools": ["VS Code", "Postman", "Jira", "Figma", "PyMuPDF"],
+  "version_control": ["Git", "GitHub", "GitLab", "Bitbucket"],
+  "testing": ["PyTest", "JUnit", "Selenium", "Cypress", "Unit Testing"],
+  "mobile": ["Android", "iOS", "Flutter", "React Native"],
+  "other_technical_skills": ["JSON", "YAML", "XML", "Bash"]
+}

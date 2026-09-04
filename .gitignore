@@ -1,0 +1,12 @@
+node_modules/
+frontend/dist/
+backend/__pycache__/
+*.pyc
+.venv/
+venv/
+.env.*
+.env
+uploads/*
+!uploads/.gitkeep
+backend/data/test frame/
+backend/data/test resume/
