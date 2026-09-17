@@ -4,15 +4,19 @@ A web-based Resume Analyzer that analyzes a resume against a given job descripti
 
 ## Live Website
 
-https://resume-analyzer-frontend-c27z.onrender.com
+### Vercel
+[https://resume-analyzer-seven-delta.vercel.app](https://resume-analyzer-seven-delta.vercel.app)
+
+### Render
+[https://resume-analyzer-frontend-c27z.onrender.com](https://resume-analyzer-frontend-c27z.onrender.com)
 
 ## Backend API
 
-https://resume-analyzer-tz24.onrender.com
+[https://resume-analyzer-tz24.onrender.com](https://resume-analyzer-tz24.onrender.com)
 
 ## GitHub Repository
 
-https://github.com/praveenkumarkb6/Resume-Analyzer
+[https://github.com/praveenkumarkb6/Resume-Analyzer](https://github.com/praveenkumarkb6/Resume-Analyzer)
 
 ## Technologies Used
 
